@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6 {
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 65%;
+  }
+
+
+.bg-dark{
+	background-color:#04204e !important;
+}
+
+.navbar-toggler{
+margin: 0px 0px 0px 0px
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 22px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-item{
+	margin: 0 10px;
+}
+
+.navbar-nav .nav-item a:hover {
+	background-color: teal;
+}
+
+p.Title01, p.Title02{
+	text-align: justify;
+	font-size: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+color:white;
+  transform: translate(-50%, -50%);
+}
+
+p{
+	text-align: justify;
+	font-size: 14px;
+}
+
+p.lim{
+	text-align: justify;
+	font-size: 18px;
+}
+
+h1.Cen{
+		font-size: 54px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h2.Title {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h3{
+	color:#04204e;
+}
+
+h4.Title01{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 48;
+}
+
+h5{
+	font-size: 18px;
+}
+
+btn{
+	color: #04204e;
+}
+
+img.img-right{
+	padding-left: 18px;
+}
